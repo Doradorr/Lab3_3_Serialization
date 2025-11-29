@@ -12,7 +12,7 @@ namespace MyApp.Presentation
 
         public static void MainMenu()
         {
-            Console.WriteLine("=== Лабораторна 3.3 — Трирівнева архітектура (XML серіалізація) ===");
+            Console.WriteLine("=== Трирівнева архітектура (XML серіалізація) ===");
 
             var dbPath = "vectors_db.xml";
             _ctx = new EntityContext(dbPath);
